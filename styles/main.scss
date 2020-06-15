@@ -1,0 +1,179 @@
+body {
+    font-family: 'Assistant', sans-serif;
+    color: #071C4D;
+}
+
+// navbar
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #071C4D;
+            &.active {
+                font-weight: bold;
+                color: #071C4D !important;
+            }
+        }
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+    height: 70px;
+    border-radius: 0;
+}
+
+.btn-login {
+    background-color: #071C4D;
+    color: white;
+    &:hover {
+        background-color: #0D3185;
+        color: white;
+    }
+}
+
+// banner
+header {
+    padding: 180px 0 135px;
+    margin-top: -70px;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    color: white;
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    p {
+        font-size: 22px;
+    }
+    .btn-cta {
+        background-color: #FF7F00;
+        color: white;
+        &:hover {
+            background-color: #FF9100;
+            color: white;
+        }
+    }
+}
+
+// main-content
+// stats
+.stats {
+    margin-top: -50px;
+    .stats-detail {
+        padding-top: 15px;
+        padding-right: 15px;
+        background: #fff;
+        padding-left: 35px;
+    }
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    p {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
+
+// popular
+.popular {
+    background-color: #051334;
+    color: white;
+    min-height: 460px;
+    margin-top: -50px;
+    margin-bottom: -170px;
+    .popular-heading {
+        margin-top: 105px;
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+.popular-item {
+    .popular-thumbs {
+        .card-item {
+            min-height: 382px;
+            color: white;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 100px;
+            .travel-country {
+                font-size: 18px;
+            }
+            .travel-loc {
+                font-size: 26px;
+            }
+            .travel-btn {
+                .btn-travel {
+                    background-color: #FF7F00;
+                    color: white;
+                    &:hover {
+                        background-color: #FF9100;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.network {
+    margin-bottom: 100px;
+    .network-heading {
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    .network-items {
+        .network-item {
+            margin: auto;
+            img {
+                max-height: 70px;
+            }
+        }
+    }
+}
+
+// mobile & tablet style
+@media only screen and (max-width: 768px) {
+    .stats {
+        .stats-detail {
+            text-align: center;
+        }
+    }
+    .content {
+        margin-top: -145px;
+        padding-top: 195px;
+    }
+    .network {
+        .network-heading {
+            text-align: center;
+        }
+        .network-items {
+            .network-item {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
