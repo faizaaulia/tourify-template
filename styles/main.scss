@@ -111,7 +111,7 @@ header {
             color: white;
             padding: 30px;
             background-size: cover;
-            margin-bottom: 100px;
+            margin-bottom: 50px;
             .travel-country {
                 font-size: 18px;
             }
@@ -133,7 +133,8 @@ header {
 }
 
 .network {
-    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     .network-heading {
         h2 {
             font-family: 'Playfair Display', serif;
@@ -151,6 +152,75 @@ header {
                 max-height: 70px;
             }
         }
+    }
+}
+
+.testimoni-heading {
+    background: linear-gradient(#fff 0%, #f7f9ff 100%);
+    min-height: 405px;
+    padding-top: 50px;
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+.testimoni-content {
+    margin-top: -170px;
+    padding-bottom: 50px;
+    .popular-testi {
+        .card {
+            border-radius: 11px;
+            hr {
+                margin-left: -20px;
+                margin-right: -20px;
+            }
+            .testi-user {
+                h3,
+                .testi-trip {
+                    font-size: 22px;
+                }
+                .testi-content {
+                    font-size: 24px;
+                    font-weight: lighter;
+                    min-height: 180px;
+                }
+                p {
+                    color: #6e6e6e;
+                }
+                padding: 50px 20px 0;
+            }
+        }
+    }
+    .btn-testi {
+        margin-top: 20px;
+        max-width: 300px;
+        .btn-help {
+            background-color: #D5D5D5;
+            font-weight: lighter;
+        }
+        .btn-get {
+            background-color: #FF7F00;
+            color: white;
+            font-weight: 400;
+            &:hover {
+                background-color: #FF9100;
+                color: white;
+            }
+        }
+    }
+}
+
+.footer-content {
+    margin-top: 50px;
+    a,
+    li {
+        color: #071C4D;
+        font-weight: normal;
     }
 }
 

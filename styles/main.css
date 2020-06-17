@@ -110,7 +110,7 @@ header .btn-cta:hover {
   color: white;
   padding: 30px;
   background-size: cover;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .popular-item .popular-thumbs .card-item .travel-country {
@@ -132,7 +132,8 @@ header .btn-cta:hover {
 }
 
 .network {
-  margin-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .network .network-heading h2 {
@@ -151,6 +152,87 @@ header .btn-cta:hover {
 
 .network .network-items .network-item img {
   max-height: 70px;
+}
+
+.testimoni-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  min-height: 405px;
+  padding-top: 50px;
+}
+
+.testimoni-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.testimoni-heading p {
+  font-size: 20px;
+}
+
+.testimoni-content {
+  margin-top: -170px;
+  padding-bottom: 50px;
+}
+
+.testimoni-content .popular-testi .card {
+  border-radius: 11px;
+}
+
+.testimoni-content .popular-testi .card hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.testimoni-content .popular-testi .card .testi-user {
+  padding: 50px 20px 0;
+}
+
+.testimoni-content .popular-testi .card .testi-user h3,
+.testimoni-content .popular-testi .card .testi-user .testi-trip {
+  font-size: 22px;
+}
+
+.testimoni-content .popular-testi .card .testi-user .testi-content {
+  font-size: 24px;
+  font-weight: lighter;
+  min-height: 180px;
+}
+
+.testimoni-content .popular-testi .card .testi-user p {
+  color: #6e6e6e;
+}
+
+.testimoni-content .btn-testi {
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+.testimoni-content .btn-testi .btn-help {
+  background-color: #D5D5D5;
+  font-weight: lighter;
+}
+
+.testimoni-content .btn-testi .btn-get {
+  background-color: #FF7F00;
+  color: white;
+  font-weight: 400;
+}
+
+.testimoni-content .btn-testi .btn-get:hover {
+  background-color: #FF9100;
+  color: white;
+}
+
+.footer-content {
+  margin-top: 50px;
+}
+
+.footer-content a,
+.footer-content li {
+  color: #071C4D;
+  font-weight: normal;
 }
 
 @media only screen and (max-width: 768px) {
