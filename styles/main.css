@@ -235,6 +235,160 @@ header .btn-cta:hover {
   font-weight: normal;
 }
 
+.detail-header {
+  min-height: 300px;
+  background-color: #E4E6EB;
+  margin-top: -70px;
+}
+
+.detail-content {
+  margin-top: -220px;
+  min-height: 100vh;
+}
+
+.detail-content .breadcrumb {
+  padding: 30px 0;
+  margin-bottom: 0;
+  background-color: transparent;
+}
+
+.detail-content .breadcrumb .active {
+  font-weight: bold;
+  color: #071C4D;
+}
+
+.detail-content .card-detail {
+  margin-bottom: 50px;
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.detail-content .card-detail h2 {
+  font-size: 26px;
+  color: #071C4D;
+  margin-bottom: 5px;
+}
+
+.detail-content .card-detail .about h2 {
+  font-size: 20px;
+}
+
+.detail-content .card-detail p {
+  color: #B5B5B5;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.detail-content .card-detail .gallery .xzoom-container {
+  display: block;
+}
+
+.detail-content .card-detail .gallery .xzoom-container #xzoom-default {
+  padding-bottom: 20px;
+}
+
+.detail-content .card-detail .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.detail-content .card-detail .gallery .xzoom-container .xactive {
+  border: 4px solid #C6C6C6;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.detail-content .card-detail .about {
+  padding: 30px 0;
+}
+
+.detail-content .card-detail .about p {
+  padding: 10px 0 0;
+  margin: 0;
+}
+
+.detail-content .card-detail .additional .info {
+  overflow: hidden;
+  float: left;
+}
+
+.detail-content .card-detail .additional .info img {
+  float: left;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.detail-content .card-detail .additional .info p {
+  color: #071C4D;
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.detail-content .card-detail .additional .info .info-desc {
+  font-size: 14px;
+  color: #B5B5B5;
+}
+
+.detail-cust .card-cust {
+  border-radius: 11px 11px 0 0;
+  padding: 30px 30px 0 30px;
+}
+
+.detail-cust .card-cust h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.detail-cust .card-cust .members img {
+  float: left;
+}
+
+.detail-cust .card-cust .members .plus {
+  width: 40px;
+  height: 40px;
+  background-color: #E4E6EB;
+  float: left;
+}
+
+.detail-cust .card-cust .members .plus p {
+  margin: 0;
+}
+
+.detail-cust .card-cust hr {
+  margin: 0;
+  border: 1px solid #D5D5D5;
+}
+
+.detail-cust .card-cust .trip-info {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+.detail-cust .card-cust .trip-info .info-desc {
+  float: right;
+  color: #B5B5B5;
+}
+
+.detail-cust .join {
+  margin-left: -31px;
+  margin-right: -31px;
+  background-color: #FF7F00;
+  color: white;
+}
+
+.detail-cust .join:hover {
+  background-color: #FF9100;
+  color: white;
+}
+
+.detail-cust .join a {
+  padding-right: 15px;
+  color: white;
+}
+
 @media only screen and (max-width: 768px) {
   .stats .stats-detail {
     text-align: center;
