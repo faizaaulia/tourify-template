@@ -331,6 +331,55 @@ header .btn-cta:hover {
   color: #B5B5B5;
 }
 
+.detail-content .card-detail .members-going tr {
+  color: #071C4D;
+}
+
+.detail-content .card-detail .members-going tr td {
+  vertical-align: middle;
+}
+
+.detail-content .card-detail .members-going tr td .avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.detail-content .card-detail .add-member {
+  margin-bottom: 20px;
+}
+
+.detail-content .card-detail .add-member h3 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.detail-content .card-detail .add-member .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.detail-content .card-detail .add-member .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.detail-content .card-detail .add-member .btn-add {
+  background-color: #071C4D;
+  color: white;
+}
+
+.detail-content .card-detail .add-member .btn-add:hover {
+  background-color: #0D3185;
+  color: white;
+}
+
+.detail-content .card-detail .disclaimer h6 {
+  margin: 0;
+  color: #071C4D;
+}
+
+.detail-content .card-detail .disclaimer span {
+  color: #B5B5B5;
+}
+
 .detail-cust .card-cust {
   border-radius: 11px 11px 0 0;
   padding: 30px 30px 0 30px;
@@ -367,8 +416,12 @@ header .btn-cta:hover {
   margin-bottom: 30px;
 }
 
+.detail-cust .card-cust .trip-info td {
+  width: 50%;
+}
+
 .detail-cust .card-cust .trip-info .info-desc {
-  float: right;
+  text-align: right;
   color: #B5B5B5;
 }
 
@@ -403,6 +456,13 @@ header .btn-cta:hover {
   .network .network-items .network-item {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .detail-content .card-detail .add-member .btn-add {
+    display: block;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -307,6 +307,54 @@ header {
                 }
             }
         }
+        // checkout-page-start
+        .members-going {
+            tr {
+                color: #071C4D;
+                td {
+                    vertical-align: middle;
+                    .avatar {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+            }
+        }
+        .add-member {
+            margin-bottom: 20px;
+            h3 {
+                font-size: 20px;
+                padding-bottom: 20px;
+            }
+            .gj-datepicker {
+                .datepicker {
+                    border-right: 0;
+                }
+            }
+            .input-group-append {
+                .btn {
+                    padding-right: 30px;
+                }
+            }
+            .btn-add {
+                background-color: #071C4D;
+                color: white;
+                &:hover {
+                    background-color: #0D3185;
+                    color: white;
+                }
+            }
+        }
+        .disclaimer {
+            h6 {
+                margin: 0;
+                color: #071C4D;
+            }
+            span {
+                color: #B5B5B5;
+            }
+        }
+        // checkout-page-end
     }
 }
 
@@ -314,7 +362,6 @@ header {
 .detail-cust {
     .card-cust {
         border-radius: 11px 11px 0 0;
-        // .info {
         padding: 30px 30px 0 30px;
         h2 {
             font-size: 20px;
@@ -342,12 +389,14 @@ header {
             font-size: 18px;
             font-weight: lighter;
             margin-bottom: 30px;
+            td {
+                width: 50%;
+            }
             .info-desc {
-                float: right;
+                text-align: right;
                 color: #B5B5B5;
             }
         }
-        // }
     }
     .join {
         margin-left: -31px;
@@ -365,7 +414,7 @@ header {
     }
 }
 
-// mobile & tablet style
+// mobile & tablet device
 @media only screen and (max-width: 768px) {
     .stats {
         .stats-detail {
@@ -384,6 +433,21 @@ header {
             .network-item {
                 margin-top: 10px;
                 margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+// extra small device
+@media only screen and (max-width: 576px) {
+    //checkout page
+    .detail-content {
+        .card-detail {
+            .add-member {
+                .btn-add {
+                    display: block;
+                    width: 100%;
+                }
             }
         }
     }

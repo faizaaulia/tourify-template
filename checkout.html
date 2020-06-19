@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Tourify</title>
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libraries/gijgo/css/gijgo.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar-start -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <div class="navbar-nav mx-auto">
+                <a href="index.html" class="navbar-brand m-0">
+                    <img src="images/logo.png" alt="tourify-logo">
+                </a>
+                <ul class="navbar-nav m-auto d-none d-lg-block">
+                    <li>
+                        <span class="pl-lg-1 pr-lg-2">|</span>
+                        <span class="text-muted">Beyond the explorer of the world</span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar-end -->
+    <main>
+        <!-- breadcrumb-start -->
+        <section class="detail-header"></section>
+        <section class="detail-content">
+            <div class="container">
+                <div class="row ">
+                    <div class="col p-0 pl-3 pl-lg-0">
+                        <nav aria-label="breadcrumb ">
+                            <ol class="breadcrumb ">
+                                <li class="breadcrumb-item " aria-current="page ">
+                                    Paket Travel
+                                </li>
+                                <li class="breadcrumb-item " aria-current="page ">
+                                    Details
+                                </li>
+                                <li class="breadcrumb-item active " aria-current="page ">
+                                    Checkout
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 pl-lg-0 detail-wisata">
+                        <div class="card card-detail">
+                            <h2>Who is Going?</h2>
+                            <p>Trip to Bromo, Malang, Indonesia</p>
+                            <div class="members-going">
+                                <table class="table table-responsive-sm text-center">
+                                    <thead>
+                                        <tr>
+                                            <td scope="col">Picture</td>
+                                            <td scope="col">Name</td>
+                                            <td scope="col">Natioanlity</td>
+                                            <td scope="col">VISA</td>
+                                            <td scope="col">Passport</td>
+                                            <td scope="col"></td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="images/members/member-1.png" alt="" class="avatar rounded-circle">
+                                            </td>
+                                            <td>Shayna</td>
+                                            <td>CN</td>
+                                            <td>N/A</td>
+                                            <td>Active</td>
+                                            <td>
+                                                <a href="#"><img src="images/ic_remove.png" alt=""></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="images/members/member-4.png" alt="" class="avatar rounded-circle">
+                                            </td>
+                                            <td>Faiza Aulia</td>
+                                            <td>SG</td>
+                                            <td>30 days</td>
+                                            <td>Active</td>
+                                            <td>
+                                                <a href="#"><img src="images/ic_remove.png" alt=""></a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="add-member mt-3">
+                                <h3 class="m-0">Add Member</h3>
+                                <form action="#" class="form-inline justify-content-lg-between">
+                                    <label for="username" class="sr-only">Username</label>
+                                    <input type="text" name="username" id="username" placeholder="Username" class="form-control mr-2 mb-2">
+                                    <label for="services" class="sr-only">Services</label>
+                                    <select name="services" id="services" class="custom-select mr-2 mb-2">
+                                        <option value="VISA" selected>VISA</option>
+                                        <option value="Passport">Passport</option>
+                                    </select>
+                                    <label for="doepassport" class="sr-only">DOE Passport</label>
+                                    <div class="input-group mr-2 mb-2">
+                                        <input type="text" name="doepassport" id="doepassport" class="form-control datepicker" placeholder="DOE Passport">
+                                    </div>
+                                    <button type="submit" class="btn btn-add mb-2 px-4">Add Now</button>
+                                </form>
+                            </div>
+                            <div class="disclaimer">
+                                <h6>Note</h6>
+                                <span>You're only able to invite member that has registered in Tourify.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pl-3 detail-cust">
+                        <div class="card card-cust">
+                            <h2>Members are going</h2>
+                            <div class="members py-3">
+                                <img src="images/members/member-1.png" alt="" class="mr-2">
+                                <img src="images/members/member-2.png" alt="" class="mr-2">
+                                <img src="images/members/member-3.png" alt="" class="mr-2">
+                                <img src="images/members/member-4.png" alt="" class="mr-2">
+                                <div class="plus mr-2 rounded-circle">
+                                    <p class="ml-2 mt-2">+ 8</p>
+                                </div>
+                            </div>
+                            <hr class="mb-3">
+                            <h2 class="mb-3">Trip Information</h2>
+                            <table class="trip-info">
+                                <tr>
+                                    <td class="info-title">Date of Departure</td>
+                                    <td class="info-desc">5 Jun, 2020</td>
+                                </tr>
+                                <tr>
+                                    <td class="info-title">Duration</td>
+                                    <td class="info-desc">4D 3N</td>
+                                </tr>
+                                <tr>
+                                    <td class="info-title">Type</td>
+                                    <td class="info-desc">Open Trip</td>
+                                </tr>
+                                <tr>
+                                    <td class="info-title">Price</td>
+                                    <td class="info-desc">$80 / person</td>
+                                </tr>
+                            </table>
+                            <div class="join text-center">
+                                <a href="#" class="btn btn-block btn-join">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- breadcrumb-end -->
+    </main>
+    <!-- footer-start -->
+    <footer class="footer-content border-top" id="footer-content">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-3">
+                            <h5>FEATURES</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Reviews</a></li>
+                                <li><a href="#">Community</a></li>
+                                <li><a href="#">Social Media Kit</a></li>
+                                <li><a href="#">Affiliate</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <h5>ACCOUNT</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Refund</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Rewards</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <h5>COMPANY</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Media</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <h5>GET CONNECTED</h5>
+                            <ul class="list-unstyled">
+                                <li>Malang</li>
+                                <li>Indonesia</li>
+                                <li>0811-2233-4455</li>
+                                <li>info@tourify.id</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row border-top justify-content-center align-items-center">
+                <div class="col-auto text-muted font-weight-light py-4">
+                    2020 Copyright Tourify • All Right Reserved • Malang
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-end -->
+    <script src="libraries/retina.min.js"></script>
+    <script src="libraries/jquery-3.5.1.min.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libraries/gijgo/js/gijgo.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.datepicker').datepicker({
+                uiLibrary: 'bootstrap4',
+                icons: {
+                    rightIcon: '<img src="images/ic_date.png" alt="">'
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>
