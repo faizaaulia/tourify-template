@@ -388,7 +388,9 @@ header {
         .trip-info {
             font-size: 18px;
             font-weight: lighter;
-            margin-bottom: 30px;
+            .ket {
+                font-size: 11px;
+            }
             td {
                 width: 50%;
             }
@@ -396,7 +398,33 @@ header {
                 text-align: right;
                 color: #B5B5B5;
             }
+            // checkout-page-start
+            .pay {
+                color: #071C4D;
+                .ucode {
+                    color: #FF7F00;
+                }
+            }
+            // checkout-page-end
         }
+        // chekout-page-start
+        .instruction {
+            color: #B5B5B5;
+            line-height: 1;
+        }
+        .bank-info {
+            img {
+                float: left;
+            }
+            .bank-desc {
+                margin-left: 25px;
+                p {
+                    line-height: 1.2;
+                    margin: 0;
+                }
+            }
+        }
+        // chekout-page-end
     }
     .join {
         margin-left: -31px;
@@ -410,6 +438,12 @@ header {
         a {
             padding-right: 15px;
             color: white;
+        }
+    }
+    // checkout-page
+    .cancel-book {
+        a {
+            color: #B5B5B5;
         }
     }
 }

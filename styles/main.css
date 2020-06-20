@@ -413,7 +413,10 @@ header .btn-cta:hover {
 .detail-cust .card-cust .trip-info {
   font-size: 18px;
   font-weight: lighter;
-  margin-bottom: 30px;
+}
+
+.detail-cust .card-cust .trip-info .ket {
+  font-size: 11px;
 }
 
 .detail-cust .card-cust .trip-info td {
@@ -423,6 +426,32 @@ header .btn-cta:hover {
 .detail-cust .card-cust .trip-info .info-desc {
   text-align: right;
   color: #B5B5B5;
+}
+
+.detail-cust .card-cust .trip-info .pay {
+  color: #071C4D;
+}
+
+.detail-cust .card-cust .trip-info .pay .ucode {
+  color: #FF7F00;
+}
+
+.detail-cust .card-cust .instruction {
+  color: #B5B5B5;
+  line-height: 1;
+}
+
+.detail-cust .card-cust .bank-info img {
+  float: left;
+}
+
+.detail-cust .card-cust .bank-info .bank-desc {
+  margin-left: 25px;
+}
+
+.detail-cust .card-cust .bank-info .bank-desc p {
+  line-height: 1.2;
+  margin: 0;
 }
 
 .detail-cust .join {
@@ -440,6 +469,10 @@ header .btn-cta:hover {
 .detail-cust .join a {
   padding-right: 15px;
   color: white;
+}
+
+.detail-cust .cancel-book a {
+  color: #B5B5B5;
 }
 
 @media only screen and (max-width: 768px) {
