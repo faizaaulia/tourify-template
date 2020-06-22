@@ -475,6 +475,35 @@ header .btn-cta:hover {
   color: #B5B5B5;
 }
 
+.success {
+  height: 90vh;
+}
+
+.success img {
+  margin-bottom: 30px;
+}
+
+.success h2 {
+  font-size: 26px;
+}
+
+.success h5 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #B5B5B5;
+  margin-bottom: 30px;
+}
+
+.success .btn-home {
+  background-color: #071C4D;
+  color: white;
+}
+
+.success .btn-home:hover {
+  background-color: #0D3185;
+  color: white;
+}
+
 @media only screen and (max-width: 768px) {
   .stats .stats-detail {
     text-align: center;
@@ -496,6 +525,10 @@ header .btn-cta:hover {
   .detail-content .card-detail .add-member .btn-add {
     display: block;
     width: 100%;
+  }
+  .success img {
+    width: 40%;
+    height: 40%;
   }
 }
 /*# sourceMappingURL=main.css.map */

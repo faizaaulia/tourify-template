@@ -448,6 +448,31 @@ header {
     }
 }
 
+// success page
+.success {
+    height: 90vh;
+    img {
+        margin-bottom: 30px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    h5 {
+        font-size: 20px;
+        font-weight: lighter;
+        color: #B5B5B5;
+        margin-bottom: 30px;
+    }
+    .btn-home {
+        background-color: #071C4D;
+        color: white;
+        &:hover {
+            background-color: #0D3185;
+            color: white;
+        }
+    }
+}
+
 // mobile & tablet device
 @media only screen and (max-width: 768px) {
     .stats {
@@ -483,6 +508,12 @@ header {
                     width: 100%;
                 }
             }
+        }
+    }
+    .success {
+        img {
+            width: 40%;
+            height: 40%;
         }
     }
 }
